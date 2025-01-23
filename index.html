@@ -1,0 +1,203 @@
+<!--
+any thing that has project in it would be filled by a news article that i do no have says project
+-->
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mail Online</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <style>
+        /*to style the nav */
+    header{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;
+        background-color: #32ACD1;
+        text-align: center;
+    }
+     /*to style the nav */
+    .title{
+    font-weight: 300;
+    text-align: center;
+    font-size: 125%;
+    margin-left: 46%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+ /*moving the sidebar imgs */
+.sideimg{
+    margin-left: -2%;
+     padding-top: 12%;
+      width: 200;
+       height:160;
+}
+ /*to style the logo to the top left */
+    .imgs {
+          
+            margin-top: 10px; /* Move the logo down */
+            display: flex;
+            justify-content: flex-start;
+            width: 500px;
+            height: auto;
+            padding-left: 26%;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+ main{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 25px;                                                 
+    display: flex;
+ }
+  /*to format the big grey box */
+.box{
+    background-color: rgb(128, 128, 128,0.2);
+
+    box-shadow: 0 5px 6px (0,0,0);
+    margin-left:18%;
+    margin-right:12%;
+    margin-bottom: 50px;
+}
+header{
+top: 0;
+left: 0;
+}
+
+.artimg {
+    display: flex;
+    justify-content: space-around;
+    
+}  
+.artimg img{
+    width: 170px;
+    height: auto;
+
+    
+}    
+/*making the sidebar links have no underling and no bullet point*/
+.sidebarlink{
+    color: black;
+    text-decoration: none; 
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none; 
+    
+}
+
+.sidebarlink :hover{
+    color: #32ACD1;
+    
+}
+
+
+</style>
+    <body>
+    
+        <header>
+            <nav style="font-size: 200px;">
+            <nav class="navbar">
+            <a href=""></a>
+            <!--Nav bar-->
+            <img id = "titleimg" src="images/download.png" >
+            <p id="title">Mail Online</p>
+                <ul class="navbar-list">
+                    <li><a style="margin-left: 200px;" href="index.html" class="navbar-link">Home</a></li>
+                    <li><a href="About.html" class="navbar-link">About Us</a></li>
+                    <li><a href="Explore.html" class="navbar-link">Explore New Stories</a></li>
+                    <li><a href="Survey.html" class="navbar-link navbar-mail">MAIL +</a></li>
+                </ul>
+            </nav>
+        </nav>
+        </header>
+        
+        
+        <!--the intro story-->
+        <p class="title" style="padding-right: 38%;"> <u>Latest Stories Here Project</u></p> <!-- Story placeholder -->
+        <div class ="box">
+            <h3 id="justinheader" style="padding-right: 5%;">Justin Treadau </h3>
+        <main>
+            <!-- Paragraph-->
+            <p class="content" style="text-align: center; margin-left: 125px;">On January 6, 2025, Canadian Prime Minister Justin Trudeau <br>announced his resignation as leader of the Liberal Party<br> 
+                and prime minister, citing internal party dissent that would hinder effective campaigning <br>in the upcoming federal election.<br>
+                He expressed pride in his government's achievements,<br> including support for Ukraine during ongoing conflicts<br>
+                and managing the COVID-19 pandemic. Trudeau will remain in office until a  new leader is elected.
+                <span><i>By chatgpt</i></span></p> <!-- Content for Justin Trudeau's resignation -->
+            </main>
+            
+            <img  class = "imgs"  src="images/treadau.png" >
+            
+            </div>
+            <!--the sidebar-->
+            <div class="sidebar" style="height: 125vh;">
+                <h2>Videos</h2>
+                <ul>
+                    <!--Sidebar videos and titles-->
+                    <li class="sidebarlink"> <a  style="margin-left:-5% ; font-size: 18px;" href="https://www.youtube.com/watch?v=PC3WglcqmKI">Treadau Resigns</a></li>
+                    <iframe style="margin-left: -2%; padding-top: 12%;" width="200" height="160" src="https://www.youtube.com/embed/PC3WglcqmKI?si=aOMZi-GKQsoRA4jJ"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <hr style=" margin-left: -18%; width: 240px; height: 2px; background-color: black;">
+                    <li class="sidebarlink" > <a class="sidebarlink" style="margin-left:-5% ; font-size: 16px;" href="https://www.youtube.com/watch?v=FpLvgCyk1E4">Ukraine War Continues</a></li>
+                    <iframe style="margin-left: -2%; padding-top: 12%;" width="200" height="160" src="https://www.youtube.com/embed/FpLvgCyk1E4?si=CVQGXH-1ZZl027x_" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <hr style=" margin-left: -18%; width: 240px; height: 2px; background-color: black;">
+                </ul>
+                <h2>Other Stories</h2>
+                <div style="padding-left: 20%;">
+                <!--sidebar title imgs-->
+                <li class="sidebarlink"> <a class="sidelink" style="margin-left:-5% ; font-size: 18px;" href="underconsturction.html">Rocket launchs Towards Mars</a></li>
+                <img  src="images/rocket.jpeg" >
+                <hr style=" margin-left: -18%; width: 240px; height: 2px; background-color: black;">
+                <li class="sidebarlink"> <a class="sidelink" style="margin-left:-5% ; font-size: 16px;" href="underconsturction.html">Bridge Collapes</a></li>
+                <img class="sidelink" src="images/bridge.jpeg" >
+                <hr style=" margin-left: -18%; width: 240px; height: 2px; background-color: black;">
+            </div>
+            </ul>
+                
+        </div>
+            <div class="box">
+                <h2 style="text-align: center;"> Explore other Stories here</h2>
+                <p id="articles">
+                <!--the bottum box with links-->                   
+                    <span class="sidebarlink"> <a class="" href="underconsturction.html">Fire Burns House</a></span>
+                    <span class="sidebarlink"> <a class="" href="underconsturction.html">Canada Beacomes The 51st State</a></span>
+                    <span class="sidebarlink" style="padding-right:2.5% ;"> <a class="" href="underconsturction.html">War Rages On</a></span>
+                    
+                </p>
+                <div class="artimg">
+                    
+                    <img  style="margin-bottom: 5%;"src="images/firehouse.jpeg" alt="Firehouse">
+                    <img  style="margin-bottom: 5%;"src="images/51state.jpeg" alt="51 State">
+                    <img  style="margin-bottom: 5%;"src="images/ukraine.png" alt="Ukraine">
+                </div>
+
+            </div>
+            <!--footer-->
+            <footer class="footer" style="background-color: #2faad0; color: white; padding: 20px 0;">
+                <div class="footer-container" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                    <!-- Social Media Section -->
+                    <div class="footer-social" style="text-align: center;">
+                        <h3>Follow Us</h3>
+                        <ul class="social-links" style="list-style: none;  display: flex; gap: 15px; justify-content: center; margin-top: 10px;">
+                            <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Instagram</a></li>
+                            <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Facebook</a></li>
+                            <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> YouTube</a></li>
+                            <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Bottom Section -->
+                <div class="footer-bottom" style="text-align: center; margin-top: 20px; border-top: 1px solid white; padding-top: 10px;">
+                    <p>&copy; 2025 Mail Online. All rights reserved.</p>
+                </div>
+            </footer>
+            
+            
+        </body>
+        </html>

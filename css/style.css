@@ -1,0 +1,198 @@
+/* Navbar styling */
+nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow: hidden; /* Prevents content from overflowing */
+    color: #fdfcfc; /* Sets text color for nav items */
+}
+
+/* Header text styling */
+header {
+    color: white; /* Sets header text color */
+    size: 20px; /* Font size (this rule is invalid, size should be font-size) */
+    text-align: center; /* Centers the header text */
+}
+
+/* Navbar container styling */
+.navbar {
+    padding: 15px 30px; /* Adds padding around the navbar */
+    text-align: center; /* Centers the navbar content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow to navbar */
+    display: flex; /* Makes navbar items display in a row */
+    align-items: center; /* Vertically centers navbar items */
+    font-size: 20px; /* Sets font size for navbar text */
+}
+
+/* Box styling for content areas */
+.box {
+    background-color: rgb(128, 128, 128, 0.2); /* Sets background with transparency */
+    box-shadow: 0 5px 6px (0, 0, 0); /* Adds box shadow */
+    margin-left: 18%; /* Adds margin to the left */
+    margin-right: 12%; /* Adds margin to the right */
+    margin-bottom: 50px; /* Adds margin to the bottom */
+}
+
+/* Alternate box styling for another content area */
+.boxs {
+    background-color: rgb(128, 128, 128, 0.2); /* Similar to .box but for another element */
+    box-shadow: 0 5px 6px (0, 0, 0); /* Adds box shadow */
+    margin-left: 18%; /* Adds margin to the left */
+    margin-right: 12%; /* Adds margin to the right */
+    margin-bottom: 50px; /* Adds margin to the bottom */
+}
+
+/* Navbar list styling */
+.navbar-list {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* Removes margin */
+    padding: 0; /* Removes padding */
+    display: flex; /* Makes navbar list items display in a row */
+    justify-content: center; /* Centers the navbar list items */
+}
+
+/* Image styling for grid items */
+.gridimg {
+    padding-left: 26%; /* Adds padding to the left */
+    height: auto; /* Maintains aspect ratio */
+    width: 200px; /* Sets fixed width for image */
+}
+
+/* Title styling for main sections */
+.title {
+    font-weight: 300; /* Sets font weight */
+    text-align: center; /* Centers the title */
+    font-size: 125%; /* Sets font size */
+    margin-left: 46%; /* Centers the title horizontally */
+    display: flex; /* Uses flexbox for layout */
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+/* Content section text styling */
+.content {
+    font-size: 17px; /* Sets font size for content */
+    font-weight: 350; /* Sets font weight */
+    text-align: center; /* Centers the content text */
+    text-align: center !important; /* Overrides any other text alignment */
+}
+
+/* Body text styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets font family */
+    font-weight: 450; /* Sets font weight */
+}
+
+/* Sidebar container styling */
+.sidebar {
+    width: 300px; /* Sets width of sidebar */
+    padding: 20px; /* Adds padding inside the sidebar */
+    padding-bottom: 15px; /* Adds padding to the bottom */
+    margin-bottom: 100px; /* Adds margin to the bottom */
+    position: absolute; /* Positions the sidebar absolutely */
+    height: 168%; /* Makes the sidebar taller */
+    width: 12%; /* Sets width of the sidebar */
+    top: 100px; /* Moves the sidebar down */
+    left: 0; /* Aligns sidebar to the left */
+}
+
+/* Navbar link styling */
+.navbar-link {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets text color */
+    padding: 12px 25px; /* Adds padding to links */
+    display: block; /* Makes the link a block-level element */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Adds smooth transition for hover effect */
+    border-radius: 5px; /* Rounds the corners of the link */
+}
+
+/* Hover effect for navbar links */
+.navbar-link:hover {
+    background-color: #1abc9c; /* Changes background to teal on hover */
+}
+
+/* Specific styling for the 'MAIL +' link */
+.navbar-mail {
+    font-weight: bold; /* Makes text bold */
+    color: #f39c12; /* Sets text color to yellow/orange */
+}
+
+/* Hover effect for the 'MAIL +' link */
+.navbar-mail:hover {
+    background-color: #f39c12; /* Changes background color on hover */
+    color: white; /* Changes text color to white */
+}
+
+/* Styling for the header image */
+#titleimg {
+    align-items: left; /* Aligns image to the left */
+    width: 4%; /* Sets width to 4% */
+    height: 6%; /* Sets height to 6% */
+    display: flexbox; /* Uses flexbox for layout (though it's not needed here) */
+}
+
+/* Styling for the header on the "justin" page */
+#justinheader {
+    text-align: center; /* Centers the text */
+    padding-top: 2%; /* Adds top padding */
+}
+
+/* Styling for the header on the "about" page */
+#aboutheader {
+    text-align: center; /* Centers the text */
+    padding-top: 5%; /* Adds top padding */
+    padding-left: 30%; /* Adds left padding */
+}
+
+/* Styling for the articles section */
+#articles {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-around; /* Distributes items evenly */
+}
+
+/* Body background styling */
+body {
+    background-color: white; /* Sets background color to white */
+}
+
+/* Styling for article images */
+.artimg {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-around; /* Distributes images evenly */
+}
+
+/* Footer container styling */
+.footer {
+    background-color: #2faad0; /* Sets background color to blue */
+    color: white; /* Sets text color to white */
+    padding: 20px 10%; /* Adds padding to footer */
+    font-family: Arial, sans-serif; /* Sets font for the footer */
+}
+
+/* Footer second section styling */
+.footer2 {
+    display: flex; /* Uses flexbox for layout */
+    text-align: center; /* Centers text */
+    flex-wrap: wrap; /* Allows content to wrap */
+    padding-right: 4; /* Adds right padding */
+}
+
+/* Footer third section styling */
+.footer3 {
+    flex: 1; /* Makes the section flexible */
+    margin: 10px; /* Adds margin around the section */
+    min-width: 200px; /* Sets minimum width */
+}
+
+/* List styling for footer items */
+ul {
+    list-style-type: none; /* Removes bullet points from lists */
+}
+
+/* Footer bottom section styling */
+.footer-bottom {
+    text-align: center; /* Centers text */
+    margin-top: 20px; /* Adds top margin */
+    font-size: 14px; /* Sets font size */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Adds top border */
+    padding-top: 10px; /* Adds padding to the top */
+}

@@ -1,0 +1,218 @@
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mail Online</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <!-- the title Explore-->
+    <style>
+        /* Header styling and navigation */
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 200;
+            background-color: #2faad0;
+            text-align: center;
+        }
+
+        .imgs {
+            margin-top: 10px; /* Move the logo down */
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            height: auto;
+            padding-left: 26%;
+            padding-bottom: 40px;
+            text-align: center;
+            margin-left: 15%;
+        }
+
+        .title {
+            font-weight: 300;
+            text-align: center;
+            font-size: 125%;
+            margin-left: 40%;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        /* Main content styling */
+        main {
+            padding-top: 30px;
+            text-align: left;
+            font-size: 25px;
+            display: flex;
+        }
+
+        /* Box styling for the manager, employee of the month, etc. */
+        .box {
+            background-color: rgb(128, 128, 128, 0.2);
+            box-shadow: 0 5px 6px (0, 0, 0);
+            margin-left: 8%;
+            margin-right: 1%;
+            margin-bottom: 50px;
+        }
+
+        .box2 {
+            background-color: rgb(128, 128, 128, 0.2);
+            box-shadow: 0 5px 6px (0, 0, 0);
+            margin-left: 25%;
+            margin-right: 28%;
+            margin-bottom: 50px;
+            padding-right: 14%;
+        }
+
+        .artimg {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .artimg img {
+            width: 170px;
+            height: auto;
+        }
+
+        /* News Grid container styling */
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Dynamic grid columns */
+            gap: 20px;
+            padding: 40px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .news-container :hover {
+            color: #32ACD1;
+        }
+
+        /* Each news item styling */
+        .news-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #AEC6CF;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 30px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #2faad0;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-social {
+            text-align: center;
+        }
+
+        .social-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .sidebarlink {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid white;
+            padding-top: 10px;
+        }
+    </style>
+    
+    <body>
+        <!-- Header and Navigation Section -->
+        <header>
+            <nav style="font-size: 200px;">
+                <nav class="navbar">
+                    <img id="titleimg" src="images/download.png">
+                    <p id="title">Mail Online</p>
+                    <!-- Navigation links -->
+                    <ul class="navbar-list">
+                    <li><a style="margin-left: 200px;" href="index.html" class="navbar-link">Home</a></li>
+                    <li><a href="About.html" class="navbar-link">About Us</a></li>
+                    <li><a href="Explore.html" class="navbar-link">Explore New Stories</a></li>
+                    <li><a href="Survey.html" class="navbar-link navbar-mail">MAIL +</a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+
+        <!-- Main content and news grid section -->
+        <div class="news-container">
+            <div class="news-item">
+                <img class="gridimg" src="images/owl.jpeg">
+                <h3><a href="underconsturction.html">The Mystery of the Midnight Owl</a></h3>
+                <p>Residents of Willow Creek are baffled by an unusual owl that only appears at midnight, leaving behind mysterious feathers in its wake.</p>
+            </div>
+            <div class="news-item">
+                <img class="gridimg" src="images/fossil.jpeg">
+                <h3><a href="underconsturction.html">Teen Discovers Fossil in Their Backyard</a></h3>
+                <p>A 14-year-old in Greenfield uncovered a prehistoric fossil while gardening with their family. Scientists say it could be millions of years old!</p>
+            </div>
+            <!-- More news items here -->
+            <div class="news-item">
+                <img class="gridimg" src="images/library.jpeg">
+                <h3><a href="underconsturction.html">Community Bands Together to Save Old Library</a></h3>
+                <p>Volunteers in Riverdale raised $50,000 in just three weeks to save the town's historic library from demolition. Renovations are now underway.</p>
+            </div>
+            <div class="news-item">
+                <img class="gridimg" src="images/robo.jpeg">
+                <h3><a href="underconsturction.html">Robot Dogs: The Future of Neighborhood Security</a></h3>
+                <p>RoboTech Inc. has launched a new line of robot dogs designed to patrol neighborhoods. Local families are debating whether they're friendly or too futuristic.</p>
+            </div>
+            <div class="news-item">
+                <img class="gridimg" src="images/factory.jpeg">
+                <h3><a href="underconsturction.html">Local Factory Closure Displaces Hundreds of Workers</a></h3>
+                <p>GreenTech Manufacturing announced the closure of its main plant, leaving 700 employees without jobs. Community leaders are scrambling to provide support and resources.</p>
+            </div>
+            <div class="news-item">
+                <img class="gridimg" style=" padding-top: 3%; width: 250px; height: auto;" src="images/highschool.jpeg">
+                <h3><a href="underconsturction.html">High School Vandalized Over the Weekend</a></h3>
+                <p>Vandals targeted Ridgeview High School, breaking windows and spray-painting offensive graffiti. Police are reviewing security footage and seeking leads.</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer" style="background-color: #2faad0; color: white; padding: 20px 0;">
+            <div class="footer-container" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <!-- Social media links -->
+                <div class="footer-social" style="text-align: center;">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links" style="list-style: none;  display: flex; gap: 15px; justify-content: center; margin-top: 10px;">
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Instagram</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Facebook</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> YouTube</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer bottom section -->
+            <div class="footer-bottom

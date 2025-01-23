@@ -1,0 +1,150 @@
+
+<body>
+    <!-- the title About-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Metadata for the page such as character encoding and viewport settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mail Online</title>
+        <!-- Link to the external stylesheet for styling (not being used here but can be added in the future) -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <style>
+        /* Styling for the header and navigation bar */
+        header {
+            font-family: 'Times New Roman', Times, serif; /* Set font style */
+            font-weight: 200; /* Set font weight */
+            background-color: #2faad0; /* Background color for the header */
+            text-align: center; /* Center align text */
+        }
+        .imgs {
+            margin-top: 10px; /* Adjust logo position */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center align the logo */
+            width: 500px; /* Logo width */
+            height: auto; /* Keep the aspect ratio of the logo */
+            padding-left: 26%; /* Padding to the left */
+            padding-bottom: 40px; /* Padding at the bottom */
+            text-align: center; /* Align text to the center */
+            margin-left: 15%; /* Margin from the left */
+        }
+        .title {
+            font-weight: 300; /* Set font weight */
+            text-align: center; /* Center align title */
+            font-size: 125%; /* Font size of the title */
+            margin-left: 40%; /* Margin to the left */
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: nowrap; /* No wrapping of flex items */
+        }
+        /* Main content styling */
+        main {
+            padding-top: 1px; /* Small padding at the top */
+            text-align: left; /* Left align the text */
+            font-size: 25px; /* Set font size */
+            display: flex; /* Use flexbox */
+        }
+        /* Box styling for the content sections */
+        .box {
+            background-color: rgb(128, 128, 128, 0.2); /* Light grey background */
+            box-shadow: 0 5px 6px (0, 0, 0); /* Shadow effect */
+            margin-left: 8%; /* Left margin */
+            margin-right: 1%; /* Right margin */
+            margin-bottom: 50px; /* Bottom margin */
+        }
+        .box2 {
+            background-color: rgb(128, 128, 128, 0.2); /* Light grey background */
+            box-shadow: 0 5px 6px (0, 0, 0); /* Shadow effect */
+            margin-left: 25%; /* Left margin */
+            margin-right: 28%; /* Right margin */
+            margin-bottom: 50px; /* Bottom margin */
+            padding-right: 14%; /* Padding on the right side */
+        }
+        header {
+            top: 0; /* Position at the top */
+            left: 0; /* Position at the left */
+        }
+
+        /* Styling for images inside the article section */
+        .artimg {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-around; /* Space out images evenly */
+        }
+        .artimg img {
+            width: 170px; /* Set image width */
+            height: auto; /* Maintain aspect ratio of images */
+        }
+    </style>
+
+    <body>
+        <!-- Header section containing the logo and navigation bar -->
+        <header>
+            <nav style="font-size: 200px;">
+                <!-- Main navigation bar -->
+                <nav class="navbar">
+                    <!-- Logo image -->
+                    <img id="titleimg" src="images/download.png">
+                    <!-- Website title -->
+                    <p id="title">Mail Online</p>
+                    <!-- Navigation menu with links to different pages -->
+                    <ul class="navbar-list">
+                        <li><a style="margin-left: 200px;" href="index.html" class="navbar-link">Home</a></li>
+                    <li><a href="About.html" class="navbar-link">About Us</a></li>
+                    <li><a href="Explore.html" class="navbar-link">Explore New Stories</a></li>
+                    <li><a href="Survey.html" class="navbar-link navbar-mail">MAIL +</a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+
+        <!-- Main title section for the page -->
+        <p class="title" style="padding-left: 3.5%;"> <u>Our Team</u></p>
+
+        <!-- Section box containing the introduction of the team -->
+        <div class="box2">
+            <h3 id="Aboutheader">Our Local News Enthusiasts</h3>
+            <!-- Main content for the introduction -->
+            <main>
+                <p class="content" style="margin-left: 185px;">
+                    Local news reporters have always been the heart of the community, sharing stories that matter most to their neighbors. Recently, a group of passionate kids joined forces with these reporters, inspired by their love for storytelling. From interviewing local heroes to covering neighborhood events, the kids brought fresh energy and unique perspectives. Their enthusiasm reminds everyone of the power of news to connect and inspire people of all ages. Together, they show that a shared passion for news can build bridges across generations and make a lasting impact. <span><i>By chatgpt</i></span>
+                </p>
+            </main>
+        </div>
+
+        <!-- Box for displaying the manager's information -->
+        <div class="box" style="margin-left: 25%; margin-right: 28%; padding-bottom: 2%;">
+            <H3 style="text-align: center;padding-right:4%;padding-top: 5%;">Manager</H3>
+            <img class="imgs" style="width: 200px;height: auto; padding-left: 19%;" src="images/manager.jpeg" alt="Manager Image">
+            <p style="text-align: center;">Johnathan Greer, a fictional manager at Zenith Corporation, is celebrated for his motivational leadership style. He emphasizes teamwork and innovation, which led to a 20% productivity boost in just one year. Greer often says, "Great teams achieve great things together." <br> <i>By ChatGPT</i></p>
+        </div>
+
+        <!-- Box for displaying the employee of the month -->
+        <div class="box" style="margin-left: 25%; margin-right: 28%; padding-bottom: 3%; padding-top: 3%;">
+            <h3 style="font-weight: normal; text-align: center;margin-top:-2%;">Employee of the Month</h3>
+            <img class="imgs" style="width: 200px;height: auto;padding-left: 21%;" src="images/month.jpg" alt="Employee of the Month Image">
+            <p style="text-align: center;">Jane Doe, this month's Employee of the Month at Zenith Corporation, has set an inspiring example for her colleagues. Known for her dedication and problem-solving skills, Jane successfully completed a major project ahead of schedule. Her team praises her ability to stay calm under pressure and her willingness to help others. <br> <i>By ChatGPT</i></p>
+        </div>
+
+        <!-- Footer section of the website -->
+        <footer class="footer" style="background-color: #2faad0; color: white; padding: 20px 0;">
+            <div class="footer-container" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <!-- Social Media Links Section -->
+                <div class="footer-social" style="text-align: center;">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links" style="list-style: none; display: flex; gap: 15px; justify-content: center; margin-top: 10px;">
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Instagram</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Facebook</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> YouTube</a></li>
+                        <li class="sidebarlink"><a href="#" style="color: white; text-decoration: none;"> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Section -->
+            <div class="footer-bottom" style="text-align: center; margin-top: 20px; border-top: 1px solid white; padding-top: 10px;">
+                <p>&copy; 2025 Mail Online. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
